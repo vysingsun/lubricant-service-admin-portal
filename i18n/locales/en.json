@@ -1,0 +1,98 @@
+{
+  "app": {
+    "name": "Lubricant Service Admin Portal"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "staff": "Staff",
+    "orders": "Orders",
+    "storeSettings": "Store Settings",
+    "bakongTokens": "Bakong Tokens",
+    "logout": "Log out"
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "subtitle": "Sign in with your kot-preng-api vendor account",
+      "identifier": "Email or phone",
+      "identifierPlaceholder": "Enter your email or phone number",
+      "password": "Password",
+      "submit": "Log in",
+      "error": "Invalid email/phone or password",
+      "vendorOnly": "This portal is only available to Vendor, Operator, and Super_Admin accounts"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back"
+  },
+  "storeSettings": {
+    "create": "Create store",
+    "createSubtitle": "Set up your lubricant store profile",
+    "name": "Store name",
+    "description": "Description",
+    "logo": "Logo",
+    "uploadLogo": "Upload logo",
+    "status": "Status",
+    "save": "Save changes",
+    "emptyTitle": "No store yet",
+    "emptyDescription": "This vendor account isn't linked to a store yet."
+  },
+  "products": {
+    "title": "Products",
+    "create": "New product",
+    "edit": "Edit product",
+    "empty": "No products yet",
+    "name": "Name",
+    "brand": "Brand",
+    "status": "Status",
+    "description": "Description",
+    "category": "Category",
+    "images": "Images",
+    "variants": "Variants",
+    "priceTiers": "Price tiers",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "staff": {
+    "title": "Staff",
+    "invite": "Invite staff",
+    "empty": "No staff members yet",
+    "role": "Role"
+  },
+  "orders": {
+    "title": "Order history",
+    "empty": "No orders yet",
+    "status": "Status",
+    "total": "Total",
+    "placedOn": "Placed on"
+  },
+  "bakongTokens": {
+    "title": "Bakong Tokens",
+    "create": "New token",
+    "edit": "Edit token",
+    "empty": "No Bakong tokens yet",
+    "email": "Email",
+    "token": "Token",
+    "status": "Status",
+    "usage": "Usage today",
+    "createdDate": "Created date",
+    "expiredDate": "Expired date",
+    "notes": "Notes",
+    "save": "Save",
+    "renew": "Renew",
+    "expiringSoon": "Expiring soon",
+    "statusValues": {
+      "active": "Active",
+      "limit_reached": "Limit reached",
+      "expired": "Expired"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "language": "Language"
+  }
+}

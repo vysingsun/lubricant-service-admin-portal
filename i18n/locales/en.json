@@ -3,6 +3,7 @@
     "name": "Lubricant Service Admin Portal"
   },
   "nav": {
+    "menu": "Menu",
     "dashboard": "Dashboard",
     "products": "Products",
     "staff": "Staff",

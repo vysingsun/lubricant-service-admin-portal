@@ -27,12 +27,21 @@ async function onSubmit() {
 <template>
   <UCard class="w-full max-w-sm">
     <template #header>
-      <h1 class="text-lg font-semibold">
-        {{ t('auth.login.title') }}
-      </h1>
-      <p class="text-sm text-muted">
-        {{ t('auth.login.subtitle') }}
-      </p>
+      <div class="flex flex-col items-center gap-3 text-center">
+        <img
+          src="/kotpreng.svg"
+          :alt="t('app.name')"
+          class="size-12"
+        >
+        <div>
+          <h1 class="text-lg font-semibold">
+            {{ t('auth.login.title') }}
+          </h1>
+          <p class="text-sm text-muted">
+            {{ t('auth.login.subtitle') }}
+          </p>
+        </div>
+      </div>
     </template>
 
     <form

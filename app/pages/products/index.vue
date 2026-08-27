@@ -15,7 +15,7 @@ async function onDelete(id: string) {
 
 <template>
   <div class="flex flex-col gap-6">
-    <div class="flex items-center justify-between">
+    <div class="flex flex-wrap items-center justify-between gap-2">
       <h1 class="text-2xl font-semibold">
         {{ t('products.title') }}
       </h1>
